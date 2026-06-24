@@ -1,0 +1,8 @@
+.env
+*.exe
+/bin/
+/dist/
+.idea/
+.vscode/
+*.swp
+*.swo
