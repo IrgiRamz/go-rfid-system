@@ -1,4 +1,4 @@
-# Go API for YIMM Milk Run RFID System
+# Go API for Milk Run RFID System
 
 Laravel-compatible REST API built with Go (Gin framework) using the same database as the Laravel application.
 
@@ -119,7 +119,7 @@ Response:
             "id": 1,
             "name": "Administrator",
             "username": "admin",
-            "email": "admin@yimm.com",
+            "email": "admin@gmail.com",
             "role": "admin"
         },
         "token": "1|abc..."
@@ -165,7 +165,7 @@ curl -X POST http://localhost:8080/api/logout \
 
 ## Testing with Postman
 
-1. **Create a new Collection** for YIMM RFID API
+1. **Create a new Collection** for RFID API
 2. **Add Environment** with variables:
    - `base_url`: `http://localhost:8080/api`
    - `token`: (empty, will be set from login response)
